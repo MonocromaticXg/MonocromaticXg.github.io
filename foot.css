@@ -1,0 +1,80 @@
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+.container-foot {
+    background: black;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 15px;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+.icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.icons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.icons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.foot-divNav {
+    margin: 30px 0;
+}
+
+.foot-divNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-divNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.foot-divNav ul li a:hover {
+    opacity: 1;
+}
+
+.foot-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.foot-bottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
